@@ -1,0 +1,78 @@
+/* Style général pour le corps de la page */
+body {
+    background-image: url('https://www.papierpeintpanoramique.fr/media/catalog/product/cache/5b18b93ddbe5d6592c6b175f41d24454/w/1/w13163-small.jpg'); /* Image de fond */
+    font-family: Arial, sans-serif; /* Police pour l'ensemble de la page */
+    margin: 0; /* Suppression des marges par défaut */
+    padding: 0; /* Suppression du remplissage par défaut */
+    display: flex; /* Utilisation du flexbox pour centrer */
+    justify-content: center; /* Centrage horizontal */
+    align-items: center; /* Centrage vertical */
+    height: 100vh; /* Prend toute la hauteur de la fenêtre */
+}
+
+/* Style général pour le conteneur du formulaire */
+.form-container {
+    max-width: 400px; /* Largeur maximale */
+    padding: 20px; /* Espacement interne */
+    border: 2px solid #007bff; /* Bordure */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre */
+    background-color: white; /* Couleur de fond du formulaire */
+}
+
+/* Style des titres */
+h2 {
+    text-align: center; /* Centrage du titre */
+    color: #333; /* Couleur du texte */
+}
+
+img {
+    max-width: 300px; /* Limite la largeur de l'image à 300 pixels */
+    height: auto; /* Garde le ratio d'aspect de l'image */
+    display: block; /* Fait de l'image un bloc */
+    margin: 0 auto 20px; /* Centre l'image et ajoute de l'espacement en bas */
+}
+
+/* Style des labels */
+label {
+    display: block; /* Chaque label sur une nouvelle ligne */
+    margin-bottom: 8px; /* Espacement en bas */
+    font-weight: bold; /* Texte en gras */
+}
+
+/* Style des champs de saisie */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 20px); /* Largeur complète moins le padding */
+    padding: 10px; /* Espacement interne */
+    margin-bottom: 15px; /* Espacement en bas */
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 4px; /* Coins arrondis */
+    font-size: 16px; /* Taille de la police */
+}
+
+/* Style du bouton */
+button {
+    width: 100%; /* Largeur complète */
+    padding: 10px; /* Espacement interne */
+    background-color: #007bff; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 4px; /* Coins arrondis */
+    font-size: 16px; /* Taille de la police */
+    cursor: pointer; /* Curseur pointer */
+    transition: background-color 0.3s; /* Transition douce */
+}
+
+/* Changement de couleur au survol du bouton */
+button:hover {
+    background-color: #0056b3; /* Couleur au survol */
+}
+
+/* Style du message */
+p {
+    text-align: center; /* Centrage du message */
+    color: red; /* Couleur du texte */
+    margin-top: 15px; /* Espacement en haut */
+}

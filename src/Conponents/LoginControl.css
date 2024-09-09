@@ -1,0 +1,43 @@
+body {
+    background-size: cover;
+    font-family: 'Pokemon', Arial, sans-serif; /* Ajoutez une police Pokémon si disponible */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2a1af;
+    height: 100vh;
+    color: rgb(3, 3, 3); /* Couleur du texte en blanc pour contraster avec le fond */
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.621); /* Fond semi-transparent pour le formulaire */
+    border-radius: 15px; /* Bords arrondis */
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Ombre pour donner de la profondeur */
+    color: black;
+    border: #304adf;
+    
+}
+
+
+input, button {
+    border-radius: 5px; /* Bords arrondis */
+    padding: 10px;
+    margin: 10px 0; /* Espacement entre les éléments */
+    border: 2px solid #d45151; /* Bordure jaune */
+    font-size: 16px; /* Taille de police */
+    width: 100%; /* Prend toute la largeur du formulaire */
+    box-sizing: border-box; /* Inclut le remplissage et la bordure dans la largeur totale */
+}
+
+button {
+    background-color: #f2a1af; /* Couleur rouge pour le bouton */
+    color: #000000;
+    cursor: pointer; /* Curseur de la souris en forme de main */
+}
+
+button:hover {
+    background-color: #cc0000; /* Couleur plus foncée au survol */
+}
